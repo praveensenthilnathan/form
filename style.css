@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.58),rgba(0, 0, 0, 0.4));
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    transition: background-image ease-in-out 0.3;
+}
+
+.wrapper:hover{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.4));
+}
+
+.form-box{
+    width: 380px;
+    height: 495px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+select{
+    font-weight: normal;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #27e9e918;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border:0;
+    outline: none;
+    position:relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #2BC0E4, #EAECC6);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+select{
+    font-weight: normal;
+}
+
+select{
+    -webkit-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
+}
+
+select{
+    color: unset;
+}
+
+.input-field, select, .selector{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    font-size: 15px;
+    background: transparent;
+    font-weight:550;
+    transition: ease-in-out 0.4s;
+}
+
+.input-field:focus, select:focus{
+    border-bottom: 1px solid rgba(81, 203, 238, 1);
+    transition: 0.3s ease-in;
+}
+
+
+
+.input-field:focus{
+    border-bottom: 1.5px solid rgb(165, 234, 255);
+
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #2BC0E4, #EAECC6);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 450px;
+}
+
